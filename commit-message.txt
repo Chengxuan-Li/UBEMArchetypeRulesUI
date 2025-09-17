@@ -1,0 +1,26 @@
+feat: Complete UBEM Archetype Rules UI implementation
+
+- Add rule toggle switches for enable/disable functionality
+- Implement user-editable rule names
+- Add searchable dropdowns for feature fields and grouping
+- Move Add Rule buttons to Rules section header
+- Relocate visualization settings below Sankey diagram
+- Fix Sankey grouping to allow clearing selections
+- Implement consistent coloring within groups
+- Add unassigned features visualization in Sankey
+- Fix Plotly rendering issues
+- Add comprehensive GitHub Pages deployment workflow
+- Clean up .gitignore and update README
+
+Features:
+- Drag-and-drop rule ordering with @dnd-kit
+- Rich condition builders with multiple operators
+- Custom formula rules with safe expression evaluation
+- Live Plotly Sankey visualization
+- JSON import/export functionality
+- LocalStorage persistence
+- Responsive TailwindCSS UI
+- TypeScript with Zod validation
+- Comprehensive test coverage
+
+Ready for GitHub Pages deployment via deploy branch.
